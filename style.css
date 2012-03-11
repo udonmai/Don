@@ -12,4 +12,99 @@ TAGS:
 @import url('bootstrap/css/bootstrap.css');
 
 /* Don style */
+html {
+	font-size:100%;
+	overflow-y:scroll;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+}
 
+body {
+	font-family:sans-serif;
+	background-image:url(./imgs/background.gif);
+	background-attachment:fixed;
+}
+
+#wrapper {
+	background-image:url(./imgs/body.png);
+	background-attachment:fixed;
+}
+
+#blog-title {
+	font-style:normal;
+	font-size:2.1em !important;
+}
+
+#header {
+	text-align:center;
+	position:fixed;
+	left:0;
+	top:0;
+	width:300px;
+	height:100%;
+	padding:20px 0;
+	font-family:"Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
+}
+
+#blog-description {
+	margin:5px 0 20px 0;
+	font-style:italic;
+	font-size:95%;
+}
+
+#menu {
+	font-family:"Copperplate","Lucida Grande",arial,sans-serif;
+	margin:10px 0;
+}
+
+#menu li {
+	display:block;
+	height:26px;
+}
+
+#menu a {
+	line-height:200%;
+	color: #979696;
+	text-transform: uppercase;
+}
+
+#container {
+	margin-left:300px;
+	margin-right:100px;
+	min-width:760px;
+	padding:2em;
+	background-color:white;
+
+	-webkit-border-bottom-left-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	font-size:0.9em;
+	margin-bottom:1.5em;
+	-webkit-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);
+	-moz-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);
+	box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);
+	border:1px solid;
+	border-top:none;
+	margin-top:-4px;
+	padding-top:4px;
+	border-color:#CCC;
+}
+
+/* reset */
+p {
+	font-weight:normal;
+	line-height:160%;
+	margin-bottom:0.8em;
+}
+
+ul, li {
+	list-style:none;
+	margin:0;
+}
+
+a:hover {
+	text-decoration: none;
+}
