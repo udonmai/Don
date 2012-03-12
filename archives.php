@@ -8,28 +8,38 @@ Template Name: Archives Page
 	<div id="container">
 		<div id="content">
 
-<?php the_post() ?>
 
 			<div id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
 				<h2 class="entry-title"><?php the_title() ?></h2>
 				<div class="entry-content">
-<?php the_content() ?>
 
-					<ul id="archives-page" class="xoxo">
-						<li id="category-archives">
-							<h3><?php _e( 'Archives by Category', 'sandbox' ) ?></h3>
-							<ul>
-								<?php wp_list_categories('optioncount=1&title_li=&show_count=1') ?> 
-							</ul>
-						</li>
-						<li id="monthly-archives">
-							<h3><?php _e( 'Archives by Month', 'sandbox' ) ?></h3>
-							<ul>
-								<?php wp_get_archives('type=monthly&show_post_count=1') ?>
-							</ul>
-						</li>
-					</ul>
-<?php edit_post_link( __( 'Edit', 'sandbox' ), '<span class="edit-link">', '</span>' ) ?>
+			<div class="ach_section">
+				<ul>
+				<?php
+				global $post;
+				$num = 0;
+				$args = array( 'numberposts' => 1000, 'offset'=> 0, 'category' => 0 );
+				$myposts = get_posts( $args );
+				foreach( $myposts as $post ) :	setup_postdata($post); 
+					$num ++;
+					if ($num == 1) { 
+						$preyear = get_the_time('Y');
+						echo "<div class='entry-year'>$preyear</div>";
+					 }
+					$year = get_the_time('Y'); 
+					if ($num > 1 && $preyear != $year) {
+						$preyear = $year;
+						echo "<div class='entry-year'>$year</div>";						
+					}
+					?>
+					<li id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
+						<span class="entry-title"><a href="<?php the_permalink() ?>" title="<?php printf( __('Permalink to %s', 'sandbox'), the_title_attribute('echo=0') ) ?>" rel="bookmark"><?php the_title() ?></a></span>
+						<span class="entry-date"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO') ?>"><?php unset($previousday); printf( __( '%1$s', 'sandbox' ), the_date( 'D, M d', '', '', false ), get_the_time() ) ?></abbr></span>
+					</li>
+				<?php endforeach; ?>
+				</ul>
+			</div>
+			
 
 				</div>
 			</div><!-- .post -->
@@ -39,5 +49,4 @@ Template Name: Archives Page
 		</div><!-- #content -->
 	</div><!-- #container -->
 
-<?php get_sidebar() ?>
 <?php get_footer() ?>

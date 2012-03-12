@@ -77,8 +77,8 @@ body {
 
 #container {
 	margin-left:300px;
-	margin-right:100px;
-	min-width:760px;
+	margin-right:200px;
+	min-width:660px;
 	padding:3em;
 	background-color:white;
 
@@ -131,6 +131,37 @@ body {
 .section {
 	margin:20px 0;
 }
+
+.ach_section {
+	margin:20px 0;
+}
+
+.ach_section ul,li {
+	list-style:none;
+}
+
+.ach_section .entry-date {
+	float:right;
+}
+
+.ach_section .entry-date abbr {
+	border-bottom:none;
+}
+
+.ach_section .entry-year {
+	margin: 1em 0 1em 0;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid rgba(151, 150, 150, 0.4);
+	font-size: 2.8em;
+	font-family: "Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
+}
+
+.ach_section .hentry {
+	margin-top: 1em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px dashed rgba(151, 150, 150, 0.19999999999999996);
+}
+
 
 /* reset */
 h2 {
