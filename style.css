@@ -128,6 +128,10 @@ body {
 	font-family:menlo, monospace;
 }
 
+#content span.entry-cat {
+	float:right;
+}
+
 .section {
 	margin:20px 0;
 }
@@ -162,6 +166,29 @@ body {
 	border-bottom: 1px dashed rgba(151, 150, 150, 0.19999999999999996);
 }
 
+.single-entry-title {
+	font-size:2em;
+	font-family: "Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	color: #343434;
+	border-bottom: 1px solid #BCBDBD;
+	line-height: 150%;
+}
+
+.entry-meta {
+	font-size:1.4em;
+	font-family: Helvetica,'Hiragino Sans GB',Arial,sans-serif;
+	padding: 0.4em 0 1em;
+	color: #BCBCBC;
+}
+
+.entry-content p {
+	font-family: "Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-size:1.4em;
+	text-indent: 2em;
+	line-height: 1.8;
+	font-weight: normal;
+	margin:0.8em 0;
+}
 
 /* reset */
 h2 {
@@ -191,3 +218,9 @@ a:hover {
 abbr {
 	text-transform: none !important;
 }
+
+/*Twitter's bootstrap */
+@import url('bootstrap/css/bootstrap.css');
+
+
+
