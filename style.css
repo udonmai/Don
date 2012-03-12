@@ -13,6 +13,7 @@ TAGS:
 
 /* Don style */
 html {
+	height:100%;
 	font-size:100%;
 	overflow-y:scroll;
 	-webkit-text-size-adjust:100%;
@@ -20,12 +21,14 @@ html {
 }
 
 body {
+	height:100%;
 	font-family:sans-serif;
 	background-image:url(./imgs/background.gif);
 	background-attachment:fixed;
 }
 
 #wrapper {
+	height:100%;
 	background-image:url(./imgs/body.png);
 	background-attachment:fixed;
 }
@@ -57,6 +60,10 @@ body {
 	margin:10px 0;
 }
 
+#menu ul {
+	list-style:none;
+}
+
 #menu li {
 	display:block;
 	height:26px;
@@ -72,7 +79,7 @@ body {
 	margin-left:300px;
 	margin-right:100px;
 	min-width:760px;
-	padding:2em;
+	padding:3em;
 	background-color:white;
 
 	-webkit-border-bottom-left-radius:6px;
@@ -88,12 +95,54 @@ body {
 	box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);
 	border:1px solid;
 	border-top:none;
-	margin-top:-4px;
-	padding-top:4px;
 	border-color:#CCC;
 }
 
+#content {
+	font-family: "Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	color: #343434;
+	line-height: 150%;
+}
+
+#content ul {
+	list-style:square;
+	margin:10px 30px;
+}
+
+#content li {
+	height:26px;
+}
+
+#content .entry-title {
+	font-size:1.4em;
+}
+
+#content .sep {
+	color:#808081;
+	margin:0.8em;
+}
+
+#content .entry-date {
+	color:#808081;
+	font-size:80%;
+	font-family:menlo, monospace;
+}
+
+.section {
+	margin:20px 0;
+}
+
 /* reset */
+h2 {
+	font-weight:normal;
+	text-align:left;
+	font-size:13px;
+	margin-bottom:1px;
+	color:#ADADAD;
+	text-transform:uppercase;
+	font-family:Helvetica, arial, sans-serif;
+}
+
 p {
 	font-weight:normal;
 	line-height:160%;
@@ -101,10 +150,13 @@ p {
 }
 
 ul, li {
-	list-style:none;
 	margin:0;
 }
 
 a:hover {
 	text-decoration: none;
+}
+
+abbr {
+	text-transform: none !important;
 }
