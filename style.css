@@ -113,8 +113,16 @@ body {
 	height:26px;
 }
 
+#content .page-title {
+	font-size:1.4em;
+}
+
 #content .entry-title {
 	font-size:1.4em;
+}
+
+#content .entry-content {
+	height:100%;
 }
 
 #content .sep {
@@ -190,6 +198,30 @@ body {
 	margin:0.8em 0;
 }
 
+#nav-below .navi {
+	position: fixed;
+	bottom: 20%;
+	padding: .4em .8em;
+	font-size: 1.1em;
+	font-family: "Copperplate","Lucida Grande",arial,sans-serif;
+	font-variant: small-caps;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	z-index: 99;
+}
+
+#nav-below .nav-previous {
+	min-width:36px;
+	left:246px;
+	border-radius:6px 0 0 6px;
+}
+
+#nav-below .nav-next {
+	min-width:30px;
+	left:298px;
+	border-radius:0 6px 6px 0;
+}
+
 /* reset */
 h2 {
 	font-weight:normal;
@@ -219,8 +251,6 @@ abbr {
 	text-transform: none !important;
 }
 
-/*Twitter's bootstrap */
-@import url('bootstrap/css/bootstrap.css');
 
 
 

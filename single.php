@@ -11,7 +11,7 @@
 					<?php $date = get_the_time('Y-m-d');
 					echo "<span class='entry-date'>$date</span>";  
 					echo "<span class='entry-cat'>";
-					the_tags('','|','');
+					the_tags('',' &bull; ','');
 					echo "</div>";
 					?></div>
 				<div class="entry-content">
@@ -21,8 +21,12 @@
 			</div><!-- .post -->
 
 			<div id="nav-below" class="navigation">
-				<div class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">&laquo;</span> %title' ) ?></div>
-				<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">&raquo;</span>' ) ?></div>
+				<div class="navi nav-previous">
+					<span><?php previous_post_link( '%link', '<span class="meta-nav" title="%title">&laquo;Pre</span> ' )?>&nbsp;</span>
+				</div>
+				<div class="navi nav-next">
+					<span>&nbsp;<?php next_post_link( '%link', '<span class="meta-nav" title="%title">Nxt&raquo;</span>' )?></span>
+				</div>
 			</div>
 
 <?php comments_template() ?>
