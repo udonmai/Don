@@ -2,4 +2,4 @@
 
 A simple specific wordpress Theme based on well-known one - sand-box.
 
-> undergoing...
+> Beta 0.1 -> [udonmai.com](http://udonmai.com "我的Blog")
