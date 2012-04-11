@@ -49,6 +49,9 @@ body {
 	font-family:"Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
 }
 
+#head-pic {
+}
+
 #blog-description {
 	margin:5px 0 20px 0;
 	font-style:italic;
@@ -251,6 +254,12 @@ abbr {
 	text-transform: none !important;
 }
 
-
+.size64 {
+	width:64px;
+	height:64px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
 
 

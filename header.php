@@ -18,5 +18,6 @@
 		<div id="header">
 			<h1 id="blog-title"><span><a href="<?php bloginfo('home') ?>/" title="<?php echo wp_specialchars( get_bloginfo('name'), 1 ) ?>" rel="home"><?php bloginfo('name') ?></a></span></h1>
 			<div id="blog-description"><?php bloginfo('description') ?></div>
+			<div id="head-pic" class="avator"><img src="/wp-content/themes/Don/imgs/avatar.jpg" alt="udonmai" class="size64"></div>
 			<?php sandbox_globalnav() ?>
 		</div><!--  #header -->
