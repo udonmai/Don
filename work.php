@@ -18,7 +18,9 @@ Template Name: Work Page
 				<?php
 				global $post;
 				$num = 0;
-				$args = array( 'numberposts' => 1000, 'offset'=> 0, 'category' => 3 );
+				$cat = get_category_by_slug('work');
+				$cid = $cat->term_id;
+				$args = array( 'numberposts' => 1000, 'offset'=> 0, 'category' => $cid );
 				$myposts = get_posts( $args );
 				foreach( $myposts as $post ) :	setup_postdata($post); 
 					$num ++;

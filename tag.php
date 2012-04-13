@@ -13,9 +13,6 @@
 					<span class="entry-title"><a href="<?php the_permalink() ?>" title="<?php printf( __( 'Permalink to %s', 'sandbox' ), the_title_attribute('echo=0') ) ?>" rel="bookmark"><?php the_title() ?></a></span>
 					<span class="entry-date"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO') ?>"><?php unset($previousday); printf( __( '%1$s', 'sandbox' ), the_date( 'D, M d', '', '', false ), get_the_time() ) ?></abbr></span>
 				</li>				
-				<div class="entry-content">
-<?php the_excerpt(__( 'Read More <span class="meta-nav">&raquo;</span>', 'sandbox' )) ?>
-				</div>
 				<!-- .post -->
 
 <?php endwhile; ?>
