@@ -32,20 +32,24 @@ $num = 0;
 			</div>
 
 			<div id="nav-below" class="navigation">
-				<? 
-					$npl =  next_posts_link( __( '<span class="meta-nav">&laquo;</span> Older posts', 'sandbox' ) ); 
+				<?php 
+					//$npl =  next_posts_link( __( '<span class="meta-nav">&laquo;</span> Older posts', 'sandbox' ) ); 
+					$npl = get_next_posts_link('Older posts');
 					if($npl != NULL) {
 				?>
 				<div class="btn nav-previous left">
 					<span>&nbsp;<?php echo $npl; ?></span>
-				</div> <? } ?>
-				<? 
-					$ppl = previous_posts_link( __( 'Newer posts <span class="meta-nav">&raquo;</span>', 'sandbox' ) );
+				</div> 
+				<?php } ?>
+				<?php 
+						//$ppl = get_previous_posts_link( __( 'Newer posts <span class="meta-nav">&raquo;</span>', 'sandbox' ) );
+					$ppl = get_previous_posts_link('Newer posts');
 					if($ppl != NULL) {
 				?>
 				<div class="btn nav-next right">
 					<span><?php echo $ppl; ?>&nbsp;</span>
-				</div><? } ?>
+				</div>
+				<?php } ?>
 			</div>
 
 		</div><!-- #content -->
