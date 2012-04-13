@@ -7,7 +7,19 @@
 
 			<div class="ach_section">
 				<ul>
-<?php while ( have_posts() ) : the_post() ?>
+<?php
+$num = 0;	
+ while ( have_posts() ) : the_post(); 
+					$num ++;
+					if ($num == 1) { 
+						$preyear = get_the_time('Y');
+						echo "<div class='entry-year'>$preyear</div>";
+					 }
+					$year = get_the_time('Y'); 
+					if ($num > 1 && $preyear != $year) {
+						$preyear = $year;
+						echo "<div class='entry-year'>$year</div>";						
+					} ?>
 
 				<li id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
 					<span class="entry-title"><a href="<?php the_permalink() ?>" title="<?php printf( __( 'Permalink to %s', 'sandbox' ), the_title_attribute('echo=0') ) ?>" rel="bookmark"><?php the_title() ?></a></span>
@@ -20,8 +32,20 @@
 			</div>
 
 			<div id="nav-below" class="navigation">
-				<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&laquo;</span> Older posts', 'sandbox' ) ) ?></div>
-				<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&raquo;</span>', 'sandbox' ) ) ?></div>
+				<? 
+					$npl =  next_posts_link( __( '<span class="meta-nav">&laquo;</span> Older posts', 'sandbox' ) ); 
+					if($npl != NULL) {
+				?>
+				<div class="btn nav-previous left">
+					<span>&nbsp;<?php echo $npl; ?></span>
+				</div> <? } ?>
+				<? 
+					$ppl = previous_posts_link( __( 'Newer posts <span class="meta-nav">&raquo;</span>', 'sandbox' ) );
+					if($ppl != NULL) {
+				?>
+				<div class="btn nav-next right">
+					<span><?php echo $ppl; ?>&nbsp;</span>
+				</div><? } ?>
 			</div>
 
 		</div><!-- #content -->

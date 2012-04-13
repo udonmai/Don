@@ -21,12 +21,20 @@
 			</div><!-- .post -->
 
 			<div id="nav-below" class="navigation">
+				<? 
+					$ppl = previous_post_link( '%link', '<span class="meta-nav" title="%title">&laquo;Pre</span> ' ); 
+					if($ppl != NULL) {
+				?>
 				<div class="navi nav-previous">
-					<span><?php previous_post_link( '%link', '<span class="meta-nav" title="%title">&laquo;Pre</span> ' )?>&nbsp;</span>
-				</div>
+					<span><?php echo $ppl; ?>&nbsp;</span>
+				</div> <? } ?>
+				<? 
+					$npl = next_post_link( '%link', '<span class="meta-nav" title="%title">Nxt&raquo;</span>' ); 
+					if($npl != NULL) {
+				?>
 				<div class="navi nav-next">
-					<span>&nbsp;<?php next_post_link( '%link', '<span class="meta-nav" title="%title">Nxt&raquo;</span>' )?></span>
-				</div>
+					<span>&nbsp;<?php echo $npl; ?></span>
+				</div> <? } ?>
 			</div>
 
 <?php comments_template() ?>
