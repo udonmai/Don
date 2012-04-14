@@ -279,14 +279,33 @@ abbr {
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	#header {
-		width:100%;
+		height:auto;
+		width:100% !important;
 		position:static;
 	}	
 
 	#container {
-		margin:0px;
+		padding:0.8em !important;
+		margin:0px !important;
 		max-width:480px;
-		min-width:0px;
+		min-width:0px !important;
+	}
+
+	#head-pic {
+		display:none;
+	}
+
+	#content ul {
+		margin:10px 15px;
+	}
+
+	#content ul li {
+		min-height:30px;
+		height:100%;
+	}
+
+	.section {
+		margin:5px 0px !important;
 	}
 }
    
@@ -299,6 +318,24 @@ abbr {
 
 	#container {
 		margin-left:150px;
-		min-width:560px;
+		min-width:540px;
 	}
+
+	#content ul li {
+		min-height:30px;
+		height:100%;
+	}
+	
+	#nav-below .nav-previous {
+		min-width:36px;
+		left:96px;
+		border-radius:6px 0 0 6px;
+	}
+
+	#nav-below .nav-next {
+		min-width:30px;
+		left:148px;
+		border-radius:0 6px 6px 0;
+	}
+
 }
