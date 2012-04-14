@@ -11,6 +11,9 @@ TAGS:
 /*Twitter's bootstrap */
 @import url('bootstrap/css/bootstrap.css');
 
+/*Google-code-prettify*/
+@import url('google-code-prettify/prettify.css');
+
 /* Don style */
 html {
 	height:100%;
