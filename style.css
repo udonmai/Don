@@ -112,7 +112,7 @@ body {
 	margin:10px 30px;
 }
 
-#content li {
+#content ul li {
 	height:26px;
 }
 
@@ -274,4 +274,31 @@ abbr {
 .left {
 	float:left;
 	margin:0 0 0 30px;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	#header {
+		width:100%;
+		position:static;
+	}	
+
+	#container {
+		margin:0px;
+		max-width:480px;
+		min-width:0px;
+	}
+}
+   
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#header {
+		width:150px;
+		padding:0px;
+	}
+
+	#container {
+		margin-left:150px;
+		min-width:560px;
+	}
 }
