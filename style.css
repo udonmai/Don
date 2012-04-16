@@ -147,6 +147,28 @@ body {
 	margin:20px 0;
 }
 
+.section blockquote p {
+	margin:0.6em 0 1em;
+	font-size:16px !important;
+}
+
+.section p {
+	margin:0.6em 1.5em 1em;
+	font-size:14px !important;
+}
+
+.me li , .simple li {
+	list-style-type:square;
+	margin-left:1em;
+	font-size:14px !important;
+}
+
+.simple {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+
 .ach_section {
 	margin:20px 0;
 }
@@ -306,6 +328,18 @@ abbr {
 
 	.section {
 		margin:5px 0px !important;
+	}
+
+	#nav-below .nav-previous {
+		left:178px !important;
+	}
+
+	#nav-below .nav-next {
+		left:230px !important;
+	}
+
+	#nav-below .navi {
+		bottom: 6% !important;
 	}
 }
    
