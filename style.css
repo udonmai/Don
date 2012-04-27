@@ -46,7 +46,7 @@ body {
 	width:300px;
 	height:100%;
 	padding:20px 0;
-	font-family:"Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family:"Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
 }
 
 #head-pic {
@@ -102,7 +102,7 @@ body {
 }
 
 #content {
-	font-family: "Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
 	color: #343434;
 	line-height: 150%;
 }
@@ -190,7 +190,7 @@ body {
 	padding-bottom: 0.4em;
 	border-bottom: 1px solid rgba(151, 150, 150, 0.4);
 	font-size: 2.8em;
-	font-family: "Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
 }
 
 .ach_section .hentry {
@@ -201,7 +201,7 @@ body {
 
 .single-entry-title {
 	font-size:2em;
-	font-family: "Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
 	color: #343434;
 	border-bottom: 1px solid #BCBDBD;
 	line-height: 150%;
@@ -215,7 +215,7 @@ body {
 }
 
 .entry-content p {
-	font-family: "Palatino","Georgia","Hiragino Mincho ProN","Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
 	font-size:1.4em;
 	text-indent: 2em;
 	line-height: 1.8;
@@ -347,7 +347,7 @@ abbr {
 @media (max-width: 768px) {
 	#header {
 		width:150px;
-		padding:0px;
+		padding:20px 0 0 0;
 	}
 
 	#container {
