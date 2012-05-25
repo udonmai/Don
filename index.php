@@ -25,11 +25,11 @@
 				<p style="display:none;">在网络的大部分角落，我都以id <strong>udonmai</strong> 出现XD 
 				大部分时候的昵称是「麦町」。其实我在设法思考该取什么昵称的时候，还真的不知道它原来是斑点狗的别称= =，仅仅是当初自己非常喜欢「麦」迪，而「町」又非常有田园和日本的感觉。。
 				而udon，也就是乌冬的日文假名的罗马拼音，mai，既是「舞」的日文假名的罗马字母拼音，还是「麦」的中文读音。。</p>
-				<p>目前是个学生，同时对互联网颇为感兴趣，所以平时更多地会关注这方面的信息。
-				web开发可能是自己相对比较熟悉的一块，但资历尚浅。 </p>
+				<p>目前是个学生，同时对互联网颇为感兴趣，所以平时更多地会关注这方面的一些信息。
+				对web作为客户端有较高的热情，同时也有深入了解后端底层相关知识的渴望。数据存储及分布式相关的内容也希望又所涉及。 </p>
 				<p>钦慕日本，源于它的那份认真。日本的工业设计和日本人的一些礼节以及对待文化的态度都是它深深吸引我的地方。目前正计划前往以展开进一步的学业。</p>
-				<p>同时也喜欢一切美好的事物。美好的概念很宽泛，也许也仅仅是针对我个人而言。比如MUJI的一些衣服，比如一些干练的字体，比如新海城动画里空灵的蓝天。</p>
-				<p>正因为如此，我越发希望自己能够创造能被很多人认为是美好的事物，应用如是。而如果单考虑应用，我希望它不仅仅是UI美好，支撑它的逻辑代码也应该美好 :)</p>
+				<p>同时也喜欢一切美好的事物。美好的概念很宽泛，也许也仅仅是针对我个人而言。比如「深夜食堂」的那一个个恬美温馨的故事，比如MUJI的一些衣物，比如一些优雅的字体，再比如新海城动画里空灵的蓝天。</p>
+				<p>正因为如此，我越发希望自己能够创造能被很多人认为是美好的事物，应用如是。而如果单考虑应用，我希望它不仅仅是UI的美好，支撑它的逻辑代码也应该美好 :)</p>
 				<br>
 				<p>你可以在这里找到我：</p>
 				<ul class="me">
@@ -49,7 +49,7 @@
 				<h2>about this website</h2>
 				<p>Blog建立于10年伊始，由Wordpress驱动，但是要说自豪可能已经比较勉强了吧。</p>
 				<p>主题是自己在 <a href="http://www.plaintxt.org/#sandbox" target="_blank">sandbox</a> 的基础上一点点搭建起来的，创意来源是 <a href="http://lepture.com/" target="_blank">lepture前辈的博客</a> ，并经过他本人的同意 XD</p>
-				<p>项目在<a href="http://github.com/udonmai/Don/" target="_blank">Github</a>上，吐槽什么的其实也没什么啦。。</p>
+				<p>该项目在 <a href="http://github.com/udonmai/Don/" target="_blank">Github</a> 上，吐槽什么的其实也没什么啦。。</p>
 			</div>
 
 			
@@ -59,8 +59,8 @@
 					<li><a href="https://twitter.com/udonmai/" target="_blank">Twitter</a></li>
 					<li><a href="http://github.com/udonmai/" target="_blank">Github</a></li>
 					<li><a href="http://www.douban.com/people/udonmai/" target="_blank">豆瓣</a></li>
-					<li><a href="http://www.zhihu.com/people/udonmai/" target="_blank">知乎</a></li>
-					<li><a href="http://www.v2ex.com/member/udonmai/" target="_blank">V2EX</a></li>
+					<li><a href="http://www.zhihu.com/people/udonmai" target="_blank">知乎</a></li>
+					<li><a href="http://www.v2ex.com/member/udonmai" target="_blank">V2EX</a></li>
 					<li><a href="https://plus.google.com/106581352947677307747/posts/" target="_blank">Google plus</a></li>
 					<li><a href="http://udonmai.minus.com/" target="_blank">Minus</a></li>
 					<li><a href="http://www.readability.com/udonmai/latest/" target="_blank">Readability</a></li>
