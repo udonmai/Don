@@ -251,6 +251,39 @@ body {
 	margin-bottom:36px;
 }
 
+li.linkcat {
+	display:block;
+}
+
+li.linkcat ul, li.linkcat a {
+	display:block;
+}
+
+.link-title {
+	margin: 1em 0 1em 0;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid rgba(151, 150, 150, 0.4);
+	font-size: 1.6em;
+	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
+}
+
+.blogroll {
+	padding-right: 20px !important;
+}
+
+.blogroll li {
+	font-size: 15px;
+	text-align:right;
+	margin-top: 1em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px dashed rgba(151, 150, 150, 0.19999999999999996);
+}
+
+.blogroll li a {
+	float:left;
+	width:150px;
+}
+
 /* reset */
 h2 {
 	font-weight:normal;

@@ -16,7 +16,7 @@ Template Name: Links Page
 <?php the_content() ?>
 
 					<ul id="links-page" class="xoxo">
-<?php wp_list_bookmarks('title_before=<h3>&title_after=</h3>&category_before=<li id="page-%id" class="%class">&after=</li>') ?>
+<?php wp_list_bookmarks('title_before=<div class="link-title">&title_after=</div>&category_before=<div id="page-%id" class="%class">&show_description=1') ?>
 
 					</ul>
 <?php edit_post_link( __( 'Edit', 'sandbox' ), '<span class="edit-link">', '</span>' ) ?>
@@ -29,5 +29,4 @@ Template Name: Links Page
 		</div><!-- #content -->
 	</div><!-- #container -->
 
-<?php get_sidebar() ?>
 <?php get_footer() ?>
