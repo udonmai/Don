@@ -28,9 +28,8 @@ body {
 }
 
 #wrapper {
-	height:100%;
-	background-image:url(./imgs/body.png);
-	background-attachment:fixed;
+	height:auto;
+	background:url(./imgs/body.png) scroll top left repeat;
 }
 
 #blog-title {
@@ -81,6 +80,7 @@ body {
 #container {
 	margin-left:300px;
 	margin-right:200px;
+	min-height:500px;
 	min-width:660px;
 	padding:3em;
 	background-color:white;
