@@ -29,7 +29,7 @@ body {
 
 #wrapper {
 	height:auto;
-	background:url(./imgs/body.png) scroll top left repeat;
+	background:url(./imgs/body.png) fixed top left repeat;
 }
 
 #blog-title {
