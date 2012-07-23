@@ -2,7 +2,7 @@
 THEME NAME: Don
 THEME URI: http://www.udonmai.com
 DESCRIPTION: A simple specific Theme based on sandbox
-VERSION: 0.6
+VERSION: 0.9
 AUTHOR: udonmai
 AUTHOR URI:udonmai.com
 TAGS: 
@@ -111,7 +111,12 @@ body {
 	margin:10px 30px;
 }
 
-#content ul li {
+#content ol {
+	list-style:square;
+	margin:10px 30px;
+}
+
+#content li {
 	height:26px;
 }
 
@@ -166,6 +171,10 @@ h2.entry-title {
 	font-size:14px !important;
 }
 
+.section li {
+	list-style:none;
+}
+
 .me li , .simple li {
 	list-style-type:square;
 	margin-left:1em;
@@ -182,7 +191,7 @@ h2.entry-title {
 	margin:20px 0;
 }
 
-.ach_section ul,li {
+.ach_section li {
 	list-style:none;
 }
 
