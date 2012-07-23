@@ -23,13 +23,14 @@ html {
 body {
 	height:100%;
 	font-family:sans-serif;
-	background-image:url(./imgs/background.gif);
+	background-image:url(./imgs/tile.gif);/*background.gif);*/
 	background-attachment:fixed;
 }
 
 #wrapper {
 	height:auto;
-	background:url(./imgs/body.png) fixed top left repeat;
+	padding:  10px 0;
+	/*background:url(./imgs/body.png) fixed top left repeat;*/
 }
 
 #blog-title {
@@ -89,16 +90,14 @@ body {
 	-webkit-border-bottom-right-radius:6px;
 	-moz-border-radius-bottomleft:6px;
 	-moz-border-radius-bottomright:6px;
-	border-bottom-left-radius:6px;
-	border-bottom-right-radius:6px;
+	border-radius:3px;
 	font-size:0.9em;
 	margin-bottom:1.5em;
-	-webkit-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);
+	/*-webkit-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);
 	-moz-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);
-	box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);
-	border:1px solid;
+	box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);*/
+	border:#E1E1E1 1px solid;
 	border-top:none;
-	border-color:#CCC;
 }
 
 #content {
@@ -121,7 +120,17 @@ body {
 }
 
 #content .entry-title {
-	font-size:1.4em;
+	font-size:1.35em;
+}
+
+h2.entry-title {
+	font-weight: normal;
+	text-align: left;
+	font-size: 13px;
+	margin-bottom: 1px;
+	color: #ADADAD;
+	text-transform: uppercase;
+	font-family: Helvetica, arial, sans-serif;
 }
 
 #content .entry-content {
@@ -216,8 +225,8 @@ body {
 
 .entry-content p {
 	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
-	font-size:1.4em;
-	text-indent: 2em;
+	font-size:1.32em;
+	/*text-indent: 2em;*/
 	line-height: 1.8;
 	font-weight: normal;
 	margin:0.8em 0;
@@ -285,11 +294,12 @@ li.linkcat ul, li.linkcat a {
 }
 
 /* reset */
-h2 {
+p.h2 {
+	line-height:36px;
 	font-weight:normal;
 	text-align:left;
-	font-size:13px;
-	margin-bottom:1px;
+	font-size:13px !important;
+	margin:0 0 1px 0;
 	color:#ADADAD;
 	text-transform:uppercase;
 	font-family:Helvetica, arial, sans-serif;

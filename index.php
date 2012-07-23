@@ -4,7 +4,7 @@
 		<div id="content">
 			
 			<div class="section">
-				<h2>LATEST</h2>
+			    <p class="h2">LATEST</p>
 				<ul>
 				<?php $my_query = new WP_Query('posts_per_page=7');				
 						while ( $my_query->have_posts() ) : $my_query->the_post() ?>
@@ -20,7 +20,7 @@
 			</div>
 
 			<div class="section">
-				<h2>about me</h2>
+			    <p class="h2">about me</p>
 				<blockquote><p>很高兴我们能够在这里相遇 :)</p></blockquote>
 				<p style="display:none;">在网络的大部分角落，我都以id <strong>udonmai</strong> 出现XD 
 				大部分时候的昵称是「麦町」。其实我在设法思考该取什么昵称的时候，还真的不知道它原来是斑点狗的别称= =，仅仅是当初自己非常喜欢「麦」迪，而「町」又非常有田园和日本的感觉。。
@@ -40,13 +40,13 @@
 			</div>
 
 			<div class="section">
-				<h2>about my work</h2>
+			    <p class="h2">about my work</p>
 				<p>我的个人项目都在 <a href="http://github.com/udonmai/" target="_blank">Github</a> 上，但鉴于自己的才艺尚未令自己满意，非常欢迎大大们的有力吐槽。</p>
 				<p><a href="/project/" target="_blank">项目页</a> 整理中...</p>
 			</div>
 
 			<div class="section">
-				<h2>about this website</h2>
+				<p class="h2">about this website</p>
 				<p>Blog建立于10年伊始，由Wordpress驱动，但是要说自豪可能已经比较勉强了吧。</p>
 				<p>主题是自己在 <a href="http://www.plaintxt.org/#sandbox" target="_blank">sandbox</a> 的基础上一点点搭建起来的，创意来源是 <a href="http://lepture.com/" target="_blank">lepture前辈的博客</a> ，并经过他本人的同意 XD</p>
 				<p>该项目在 <a href="http://github.com/udonmai/Don/" target="_blank">Github</a> 上，吐槽什么的其实也没什么啦。。</p>
@@ -54,7 +54,7 @@
 
 			
 			<div class="section">
-				<h2>find me elsewhere</h2>
+			    <p class="h2">find me elsewhere</p>
 				<ul class="simple">
 					<li><a href="https://twitter.com/udonmai/" target="_blank">Twitter</a></li>
 					<li><a href="http://github.com/udonmai/" target="_blank">Github</a></li>
