@@ -109,10 +109,12 @@ body {
 #content ul {
 	list-style:square;
 	margin:10px 30px;
+	font-size:1.32em;
 }
 
 #content ol {
 	margin:10px 30px;
+	font-size:1.32em;
 }
 
 #content li {
@@ -128,6 +130,16 @@ body {
 }
 
 h2.entry-title {
+	font-weight: normal;
+	text-align: left;
+	font-size: 13px;
+	margin-bottom: 1px;
+	color: #ADADAD;
+	text-transform: uppercase;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+h2.page-title {
 	font-weight: normal;
 	text-align: left;
 	font-size: 13px;
@@ -290,10 +302,11 @@ li.linkcat ul, li.linkcat a {
 
 .blogroll li {
 	font-size: 15px;
-	text-align:right;
+	text-align: right;
 	margin-top: 1em;
 	padding-bottom: 0.2em;
 	border-bottom: 1px dashed rgba(151, 150, 150, 0.19999999999999996);
+	list-style: none;
 }
 
 .blogroll li a {
@@ -301,7 +314,13 @@ li.linkcat ul, li.linkcat a {
 	width:150px;
 }
 
+::selection {
+	background: #426f91;
+	color: white;
+}
+
 /* reset */
+
 p.h2 {
 	line-height:36px;
 	font-weight:normal;
