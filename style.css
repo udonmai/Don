@@ -114,6 +114,9 @@ body {
 
 #content ol {
 	margin:10px 30px;
+}
+
+#content ol li {
 	font-size:1.32em;
 }
 
@@ -126,7 +129,7 @@ body {
 }
 
 #content .entry-title {
-	font-size:1.35em;
+	font-size:16px;
 }
 
 h2.entry-title {
@@ -218,7 +221,7 @@ h2.page-title {
 	margin: 1em 0 1em 0;
 	padding-bottom: 0.4em;
 	border-bottom: 1px solid rgba(151, 150, 150, 0.4);
-	font-size: 2.8em;
+	font-size: 2.4em;
 	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
 }
 
@@ -302,7 +305,7 @@ li.linkcat ul, li.linkcat a {
 
 .blogroll li {
 	font-size: 15px;
-	text-align: right;
+	text-align:right;
 	margin-top: 1em;
 	padding-bottom: 0.2em;
 	border-bottom: 1px dashed rgba(151, 150, 150, 0.19999999999999996);
@@ -317,6 +320,26 @@ li.linkcat ul, li.linkcat a {
 ::selection {
 	background: #426f91;
 	color: white;
+}
+
+ol span {
+	font-size: 13px;
+}
+
+pre::-webkit-scrollbar {
+	height: .8em;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+pre::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(191,191,191,0.5); 
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.2); 
+}
+
+pre.prettyprint {
+	overflow-x: auto;
 }
 
 /* reset */
