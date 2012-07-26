@@ -342,6 +342,15 @@ pre.prettyprint {
 	overflow-x: auto;
 }
 
+
+ol.linenums {
+	ol.linenumsword-wrap: normal; 
+	list-style: decimal; 
+	white-space: pre;
+}
+
+
+
 /* reset */
 
 p.h2 {
