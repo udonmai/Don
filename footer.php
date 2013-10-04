@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 	<div id="footer">
 	</div><!-- #footer -->
 
@@ -13,15 +12,3 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 
 </body>
 </html>
-=======
-
-	<div id="footer">
-	</div><!-- #footer -->
-
-</div><!-- #wrapper .hfeed -->
-
-<?php wp_footer() ?>
-
-</body>
-</html>
->>>>>>> origin/orep
