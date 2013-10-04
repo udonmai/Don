@@ -1,0 +1,480 @@
+/*
+THEME NAME: Don
+THEME URI: http://www.udonmai.com
+DESCRIPTION: A simple specific Theme based on sandbox
+VERSION: 0.9
+AUTHOR: udonmai
+AUTHOR URI:udonmai.com
+TAGS: 
+*/ 
+
+/*Twitter's bootstrap */
+@import url('bootstrap/css/bootstrap.css');
+
+/* Don style */
+html {
+	height:100%;
+	font-size:100%;
+	overflow-y:scroll;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+}
+
+body {
+	height:100%;
+	font-family:sans-serif;
+	background-image:url(./imgs/tile.gif);/*background.gif);*/
+	background-attachment:fixed;
+}
+
+#wrapper {
+	height:auto;
+	padding:  10px 0;
+	/*background:url(./imgs/body.png) fixed top left repeat;*/
+}
+
+#blog-title {
+	font-style:normal;
+	font-size:2.1em !important;
+}
+
+#header {
+	text-align:center;
+	position:fixed;
+	left:0;
+	top:0;
+	width:300px;
+	height:100%;
+	padding:20px 0;
+	font-family:"Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
+}
+
+#head-pic {
+}
+
+#blog-description {
+	margin:5px 0 20px 0;
+	font-style:italic;
+	font-size:95%;
+}
+
+#menu {
+	font-family:"Copperplate","Lucida Grande",arial,sans-serif;
+	margin:10px 0;
+}
+
+#menu ul {
+	list-style:none;
+}
+
+#menu li {
+	display:block;
+	height:26px;
+}
+
+#menu a {
+	line-height:200%;
+	color: #979696;
+	text-transform: uppercase;
+}
+
+#container {
+	margin-left:300px;
+	margin-right:200px;
+	min-height:500px;
+	min-width:660px;
+	padding:3em;
+	background-color:white;
+
+	-webkit-border-bottom-left-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	-moz-border-radius-bottomright:6px;
+	border-radius:3px;
+	font-size:0.9em;
+	margin-bottom:1.5em;
+	/*-webkit-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);
+	-moz-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);
+	box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 4px rgba(0, 0, 0, 0.035);*/
+	border:#E1E1E1 1px solid;
+	border-top:none;
+}
+
+#content {
+	font-family: "Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
+	color: #343434;
+	line-height: 150%;
+}
+
+#content ul {
+	list-style:square;
+	margin:10px 30px;
+	font-size:1.32em;
+}
+
+#content ol {
+	margin:10px 30px;
+}
+
+#content ol li {
+	font-size:1.32em;
+}
+
+#content li {
+	height:26px;
+}
+
+#content .page-title {
+	font-size:1.4em;
+}
+
+#content .entry-title {
+	font-size:16px;
+}
+
+h2.entry-title {
+	font-weight: normal;
+	text-align: left;
+	font-size: 13px;
+	margin-bottom: 1px;
+	color: #ADADAD;
+	text-transform: uppercase;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+h2.page-title {
+	font-weight: normal;
+	text-align: left;
+	font-size: 13px;
+	margin-bottom: 1px;
+	color: #ADADAD;
+	text-transform: uppercase;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+#content .entry-content {
+	height:100%;
+}
+
+#content .sep {
+	color:#808081;
+	margin:0.8em;
+}
+
+#content .entry-date {
+	color:#808081;
+	font-size:80%;
+	font-family:menlo, monospace;
+}
+
+#content span.entry-cat {
+	float:right;
+}
+
+.section {
+	margin:20px 0;
+}
+
+.section blockquote p {
+	margin:0.6em 0 1em;
+	font-size:16px !important;
+}
+
+.section p {
+	margin:0.6em 1.5em 1em;
+	font-size:14px !important;
+}
+
+.section li {
+	list-style:none;
+}
+
+.me li , .simple li {
+	list-style-type:square;
+	margin-left:1em;
+	font-size:14px !important;
+}
+
+.simple {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+
+.ach_section {
+	margin:20px 0;
+}
+
+.ach_section li {
+	list-style:none;
+}
+
+.ach_section .entry-date {
+	float:right;
+}
+
+.ach_section .entry-date abbr {
+	border-bottom:none;
+}
+
+.ach_section .entry-year {
+	margin: 1em 0 1em 0;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid rgba(151, 150, 150, 0.4);
+	font-size: 2.4em;
+	font-family: "Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
+}
+
+.ach_section .hentry {
+	margin-top: 1em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px dashed rgba(151, 150, 150, 0.19999999999999996);
+}
+
+.single-entry-title {
+	font-size:2em;
+	font-family: "Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
+	color: #343434;
+	border-bottom: 1px solid #BCBDBD;
+	line-height: 150%;
+}
+
+.entry-meta {
+	font-size:1.4em;
+	font-family: Helvetica,'Hiragino Sans GB',Arial,sans-serif;
+	padding: 0.4em 0 1em;
+	color: #BCBCBC;
+}
+
+.entry-content p {
+	font-family: "Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
+	font-size:1.32em;
+	/*text-indent: 2em;*/
+	line-height: 1.8;
+	font-weight: normal;
+	margin:0.8em 0;
+}
+
+#nav-below .navi {
+	position: fixed;
+	bottom: 20%;
+	padding: .4em .8em;
+	font-size: 1.1em;
+	font-family: "Copperplate","Lucida Grande",arial,sans-serif;
+	font-variant: small-caps;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	z-index: 99;
+}
+
+#nav-below .nav-previous {
+	min-width:36px;
+	left:246px;
+	border-radius:6px 0 0 6px;
+}
+
+#nav-below .nav-next {
+	min-width:30px;
+	left:298px;
+	border-radius:0 6px 6px 0;
+}
+
+.navigation {
+	margin-bottom:36px;
+}
+
+li.linkcat {
+	display:block;
+}
+
+li.linkcat ul, li.linkcat a {
+	display:block;
+}
+
+.link-title {
+	margin: 1em 0 1em 0;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid rgba(151, 150, 150, 0.4);
+	font-size: 1.6em;
+	font-family: "Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
+}
+
+.blogroll {
+	padding-right: 20px !important;
+}
+
+.blogroll li {
+	font-size: 15px;
+	text-align:right;
+	margin-top: 1em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px dashed rgba(151, 150, 150, 0.19999999999999996);
+	list-style: none;
+}
+
+.blogroll li a {
+	float:left;
+	width:150px;
+}
+
+::selection {
+	background: #426f91;
+	color: white;
+}
+
+ol span {
+	font-size: 13px;
+}
+
+pre::-webkit-scrollbar {
+	height: .8em;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+pre::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(191,191,191,0.5); 
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.2); 
+}
+
+pre.prettyprint {
+	overflow-x: auto;
+}
+
+ol.linenums {
+	word-wrap: normal;
+	list-style: decimal;
+	white-space: pre;
+}
+
+blockquote {
+	margin: 32px 0 32px 0;
+	border-left: 5px solid #678;
+}
+
+
+/* reset */
+
+p.h2 {
+	line-height:36px;
+	font-weight:normal;
+	text-align:left;
+	font-size:13px !important;
+	margin:0 0 1px 0;
+	color:#ADADAD;
+	text-transform:uppercase;
+	font-family:Helvetica, arial, sans-serif;
+}
+
+p {
+	font-weight:normal;
+	line-height:160%;
+	margin-bottom:0.8em;
+}
+
+ul, li {
+	margin:0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+abbr {
+	text-transform: none !important;
+}
+
+.size64 {
+	width:64px;
+	height:64px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+
+.right {
+	float:right;
+	margin:0 30px 0 0;
+}
+
+.left {
+	float:left;
+	margin:0 0 0 30px;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	#header {
+		height:auto;
+		width:100% !important;
+		position:static;
+	}	
+
+	#container {
+		padding:0.8em !important;
+		margin:0px !important;
+		max-width:480px;
+		min-width:0px !important;
+	}
+
+	#head-pic {
+		display:none;
+	}
+
+	#content ul {
+		margin:10px 15px;
+	}
+
+	#content ul li {
+		min-height:30px;
+		height:100%;
+	}
+
+	.section {
+		margin:5px 0px !important;
+	}
+
+	#nav-below .nav-previous {
+		left:178px !important;
+	}
+
+	#nav-below .nav-next {
+		left:230px !important;
+	}
+
+	#nav-below .navi {
+		bottom: 6% !important;
+	}
+}
+   
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#header {
+		width:150px;
+		padding:20px 0 0 0;
+	}
+
+	#container {
+		margin-left:150px;
+		min-width:540px;
+	}
+
+	#content ul li {
+		min-height:30px;
+		height:100%;
+	}
+	
+	#nav-below .nav-previous {
+		min-width:36px;
+		left:96px;
+		border-radius:6px 0 0 6px;
+	}
+
+	#nav-below .nav-next {
+		min-width:30px;
+		left:148px;
+		border-radius:0 6px 6px 0;
+	}
+
+}
