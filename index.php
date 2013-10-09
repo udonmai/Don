@@ -62,7 +62,7 @@
 					<li><a href="http://www.zhihu.com/people/udonmai" target="_blank">知乎</a></li>
 					<li><a href="http://www.v2ex.com/member/udonmai" target="_blank">V2EX</a></li>
 					<li><a href="https://plus.google.com/106581352947677307747/posts/" target="_blank">Google plus</a></li>
-					<li><a href="http://udonmai.minus.com/" target="_blank">Minus</a></li>
+					<li><a href="http://udonmai.minus.com/likes" target="_blank">Minus</a></li>
 					<li><a href="http://www.readability.com/udonmai/latest/" target="_blank">Readability</a></li>
 				</ul>
 			</div>			

@@ -46,7 +46,7 @@ body {
 	width:300px;
 	height:100%;
 	padding:20px 0;
-	font-family:"Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family:"Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
 }
 
 #head-pic {
@@ -101,7 +101,7 @@ body {
 }
 
 #content {
-	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family: "Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
 	color: #343434;
 	line-height: 150%;
 }
@@ -222,7 +222,7 @@ h2.page-title {
 	padding-bottom: 0.4em;
 	border-bottom: 1px solid rgba(151, 150, 150, 0.4);
 	font-size: 2.4em;
-	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family: "Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
 }
 
 .ach_section .hentry {
@@ -233,7 +233,7 @@ h2.page-title {
 
 .single-entry-title {
 	font-size:2em;
-	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family: "Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
 	color: #343434;
 	border-bottom: 1px solid #BCBDBD;
 	line-height: 150%;
@@ -247,7 +247,7 @@ h2.page-title {
 }
 
 .entry-content p {
-	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family: "Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
 	font-size:1.32em;
 	/*text-indent: 2em;*/
 	line-height: 1.8;
@@ -296,7 +296,7 @@ li.linkcat ul, li.linkcat a {
 	padding-bottom: 0.4em;
 	border-bottom: 1px solid rgba(151, 150, 150, 0.4);
 	font-size: 1.6em;
-	font-family: "Palatino","Georgia",/*"Hiragino Mincho ProN",*/"Microsoft YaHei","WenQuanYi Micro Hei",serif;
+	font-family: "Palatino","Georgia","Hiragino Sans GB","WenQuanYi Micro Hei",serif;
 }
 
 .blogroll {
@@ -342,13 +342,16 @@ pre.prettyprint {
 	overflow-x: auto;
 }
 
-
 ol.linenums {
-	ol.linenumsword-wrap: normal; 
-	list-style: decimal; 
+	word-wrap: normal;
+	list-style: decimal;
 	white-space: pre;
 }
 
+blockquote {
+	margin: 32px 0 32px 0;
+	border-left: 5px solid #678;
+}
 
 
 /* reset */
