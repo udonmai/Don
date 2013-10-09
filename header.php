@@ -38,4 +38,8 @@
 			<div id="blog-description"><?php bloginfo('description') ?></div>
 			<div id="head-pic" class="avator"><img src="<?php echo home_url(); ?>/wp-content/themes/Don/imgs/avatar.jpg" alt="udonmai" class="size64"></div>
 			<?php sandbox_globalnav() ?>
+<<<<<<< HEAD
 		</div><!--  #header -->
+=======
+		</div><!--  #header -->
+>>>>>>> nrep
