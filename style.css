@@ -1,4 +1,4 @@
-/*
+                                /*
 THEME NAME: Don
 THEME URI: http://www.udonmai.com
 DESCRIPTION: A simple specific Theme based on sandbox
@@ -80,7 +80,7 @@ body {
 
 #container {
 	margin-left:300px;
-	margin-right:200px;
+	margin-right:300px;
 	min-height:500px;
 	min-width:660px;
 	padding:3em;
@@ -349,10 +349,13 @@ ol.linenums {
 }
 
 blockquote {
-	margin: 32px 0 32px 0;
+	margin: 26px 0 26px 0;
 	border-left: 5px solid #678;
 }
 
+.mainbq {
+	margin: 0;
+}
 
 /* reset */
 
@@ -478,3 +481,4 @@ abbr {
 	}
 
 }
+                            
